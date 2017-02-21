@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EFCB3001E5C36480085B187 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCB2FF1E5C36480085B187 /* AppDelegate.swift */; };
+		6EFCB3021E5C36480085B187 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCB3011E5C36480085B187 /* ViewController.swift */; };
+		6EFCB3051E5C36480085B187 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCB3031E5C36480085B187 /* Main.storyboard */; };
+		6EFCB3071E5C36480085B187 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCB3061E5C36480085B187 /* Assets.xcassets */; };
+		6EFCB30A1E5C36480085B187 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EFCB3081E5C36480085B187 /* LaunchScreen.storyboard */; };
+		6EFCB3151E5C36490085B187 /* NateqTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCB3141E5C36490085B187 /* NateqTests.swift */; };
+		6EFCB3201E5C36490085B187 /* NateqUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EFCB31F1E5C36490085B187 /* NateqUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EFCB3111E5C36490085B187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EFCB2F41E5C36480085B187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EFCB2FB1E5C36480085B187;
+			remoteInfo = Nateq;
+		};
+		6EFCB31C1E5C36490085B187 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EFCB2F41E5C36480085B187 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EFCB2FB1E5C36480085B187;
+			remoteInfo = Nateq;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6EFCB2FC1E5C36480085B187 /* Nateq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nateq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFCB2FF1E5C36480085B187 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6EFCB3011E5C36480085B187 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6EFCB3041E5C36480085B187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EFCB3061E5C36480085B187 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6EFCB3091E5C36480085B187 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6EFCB30B1E5C36480085B187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EFCB3101E5C36490085B187 /* NateqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NateqTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFCB3141E5C36490085B187 /* NateqTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NateqTests.swift; sourceTree = "<group>"; };
+		6EFCB3161E5C36490085B187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EFCB31B1E5C36490085B187 /* NateqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NateqUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EFCB31F1E5C36490085B187 /* NateqUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NateqUITests.swift; sourceTree = "<group>"; };
+		6EFCB3211E5C36490085B187 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EFCB2F91E5C36480085B187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCB30D1E5C36490085B187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCB3181E5C36490085B187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EFCB2F31E5C36480085B187 = {
+			isa = PBXGroup;
+			children = (
+				6EFCB2FE1E5C36480085B187 /* Nateq */,
+				6EFCB3131E5C36490085B187 /* NateqTests */,
+				6EFCB31E1E5C36490085B187 /* NateqUITests */,
+				6EFCB2FD1E5C36480085B187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EFCB2FD1E5C36480085B187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCB2FC1E5C36480085B187 /* Nateq.app */,
+				6EFCB3101E5C36490085B187 /* NateqTests.xctest */,
+				6EFCB31B1E5C36490085B187 /* NateqUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EFCB2FE1E5C36480085B187 /* Nateq */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCB2FF1E5C36480085B187 /* AppDelegate.swift */,
+				6EFCB3011E5C36480085B187 /* ViewController.swift */,
+				6EFCB3031E5C36480085B187 /* Main.storyboard */,
+				6EFCB3061E5C36480085B187 /* Assets.xcassets */,
+				6EFCB3081E5C36480085B187 /* LaunchScreen.storyboard */,
+				6EFCB30B1E5C36480085B187 /* Info.plist */,
+			);
+			path = Nateq;
+			sourceTree = "<group>";
+		};
+		6EFCB3131E5C36490085B187 /* NateqTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCB3141E5C36490085B187 /* NateqTests.swift */,
+				6EFCB3161E5C36490085B187 /* Info.plist */,
+			);
+			path = NateqTests;
+			sourceTree = "<group>";
+		};
+		6EFCB31E1E5C36490085B187 /* NateqUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6EFCB31F1E5C36490085B187 /* NateqUITests.swift */,
+				6EFCB3211E5C36490085B187 /* Info.plist */,
+			);
+			path = NateqUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EFCB2FB1E5C36480085B187 /* Nateq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFCB3241E5C36490085B187 /* Build configuration list for PBXNativeTarget "Nateq" */;
+			buildPhases = (
+				6EFCB2F81E5C36480085B187 /* Sources */,
+				6EFCB2F91E5C36480085B187 /* Frameworks */,
+				6EFCB2FA1E5C36480085B187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nateq;
+			productName = Nateq;
+			productReference = 6EFCB2FC1E5C36480085B187 /* Nateq.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EFCB30F1E5C36490085B187 /* NateqTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFCB3271E5C36490085B187 /* Build configuration list for PBXNativeTarget "NateqTests" */;
+			buildPhases = (
+				6EFCB30C1E5C36490085B187 /* Sources */,
+				6EFCB30D1E5C36490085B187 /* Frameworks */,
+				6EFCB30E1E5C36490085B187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EFCB3121E5C36490085B187 /* PBXTargetDependency */,
+			);
+			name = NateqTests;
+			productName = NateqTests;
+			productReference = 6EFCB3101E5C36490085B187 /* NateqTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6EFCB31A1E5C36490085B187 /* NateqUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EFCB32A1E5C36490085B187 /* Build configuration list for PBXNativeTarget "NateqUITests" */;
+			buildPhases = (
+				6EFCB3171E5C36490085B187 /* Sources */,
+				6EFCB3181E5C36490085B187 /* Frameworks */,
+				6EFCB3191E5C36490085B187 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EFCB31D1E5C36490085B187 /* PBXTargetDependency */,
+			);
+			name = NateqUITests;
+			productName = NateqUITests;
+			productReference = 6EFCB31B1E5C36490085B187 /* NateqUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EFCB2F41E5C36480085B187 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Muna Tayeb";
+				TargetAttributes = {
+					6EFCB2FB1E5C36480085B187 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					6EFCB30F1E5C36490085B187 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EFCB2FB1E5C36480085B187;
+					};
+					6EFCB31A1E5C36490085B187 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 6EFCB2FB1E5C36480085B187;
+					};
+				};
+			};
+			buildConfigurationList = 6EFCB2F71E5C36480085B187 /* Build configuration list for PBXProject "Nateq" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EFCB2F31E5C36480085B187;
+			productRefGroup = 6EFCB2FD1E5C36480085B187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EFCB2FB1E5C36480085B187 /* Nateq */,
+				6EFCB30F1E5C36490085B187 /* NateqTests */,
+				6EFCB31A1E5C36490085B187 /* NateqUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EFCB2FA1E5C36480085B187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFCB30A1E5C36480085B187 /* LaunchScreen.storyboard in Resources */,
+				6EFCB3071E5C36480085B187 /* Assets.xcassets in Resources */,
+				6EFCB3051E5C36480085B187 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCB30E1E5C36490085B187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCB3191E5C36490085B187 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EFCB2F81E5C36480085B187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFCB3021E5C36480085B187 /* ViewController.swift in Sources */,
+				6EFCB3001E5C36480085B187 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCB30C1E5C36490085B187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFCB3151E5C36490085B187 /* NateqTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EFCB3171E5C36490085B187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EFCB3201E5C36490085B187 /* NateqUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EFCB3121E5C36490085B187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EFCB2FB1E5C36480085B187 /* Nateq */;
+			targetProxy = 6EFCB3111E5C36490085B187 /* PBXContainerItemProxy */;
+		};
+		6EFCB31D1E5C36490085B187 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EFCB2FB1E5C36480085B187 /* Nateq */;
+			targetProxy = 6EFCB31C1E5C36490085B187 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EFCB3031E5C36480085B187 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFCB3041E5C36480085B187 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EFCB3081E5C36480085B187 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EFCB3091E5C36480085B187 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EFCB3221E5C36490085B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EFCB3231E5C36490085B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EFCB3251E5C36490085B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nateq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.Nateq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6EFCB3261E5C36490085B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Nateq/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.Nateq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6EFCB3281E5C36490085B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NateqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.NateqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nateq.app/Nateq";
+			};
+			name = Debug;
+		};
+		6EFCB3291E5C36490085B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NateqTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.NateqTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nateq.app/Nateq";
+			};
+			name = Release;
+		};
+		6EFCB32B1E5C36490085B187 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NateqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.NateqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nateq;
+			};
+			name = Debug;
+		};
+		6EFCB32C1E5C36490085B187 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = NateqUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Senior.Nateq.NateqUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Nateq;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EFCB2F71E5C36480085B187 /* Build configuration list for PBXProject "Nateq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFCB3221E5C36490085B187 /* Debug */,
+				6EFCB3231E5C36490085B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EFCB3241E5C36490085B187 /* Build configuration list for PBXNativeTarget "Nateq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFCB3251E5C36490085B187 /* Debug */,
+				6EFCB3261E5C36490085B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EFCB3271E5C36490085B187 /* Build configuration list for PBXNativeTarget "NateqTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFCB3281E5C36490085B187 /* Debug */,
+				6EFCB3291E5C36490085B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6EFCB32A1E5C36490085B187 /* Build configuration list for PBXNativeTarget "NateqUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EFCB32B1E5C36490085B187 /* Debug */,
+				6EFCB32C1E5C36490085B187 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EFCB2F41E5C36480085B187 /* Project object */;
+}
